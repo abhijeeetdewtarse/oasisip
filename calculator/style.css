@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(349deg,
+            rgb(116, 90, 208) 0%,
+            rgb(156, 198, 237) 100%);
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.island {
+    height: 30px;
+    width: 160px;
+    background-color: red;
+    position: absolute;
+    top: 35px;
+    left: 689px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #393c46;
+}
+
+.main-container {
+    background-color: #22252e;
+    padding: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 430px;
+    width: 350px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+input {
+    box-shadow: rgba(173, 159, 159, 0.904) 0px 10px 15px -3px,
+        rgba(201, 152, 152, 0.763) 0px 4px 6px -2px;
+    padding-right: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    outline: none;
+    color: white;
+    height: 180px;
+    width: 360px;
+    background-color: #22252e;
+    border-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: end;
+}
+
+button {
+    margin: 9px 8px;
+    background-color: #282b32;
+    height: 66px;
+    width: 66px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2rem;
+    border-style: none;
+    box-shadow: rgba(156, 151, 151, 0.16) 0px 1px 4px;
+    transition: 2ms linear;
+}
+
+button:hover {
+    background-color: #212429;
+}
+
+.click {
+    background-color: #212429;
+}
+
+.numeric_button,
+.dot {
+    color: white;
+}
+
+.arithmetic_button,
+.equal-sign {
+    color: #000000;
+    background-color: rgb(124, 96, 238);
+    font-size: larger;
+}
+
+.arithmetic_button:hover,
+.equal-sign:hover {
+    background-color: rgb(86, 58, 199);
+}
+
+.numeric_button,
+.arithmetic_button {
+    font-weight: bold;
+}
+
+.upper {
+    color: #000000;
+    background-color: rgb(124, 96, 238);
+}
+
+.upper:hover {
+    color: #000000;
+    background-color: rgb(86, 58, 199);
+}
+
+Footer
